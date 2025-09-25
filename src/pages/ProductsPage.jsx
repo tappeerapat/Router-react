@@ -3,7 +3,7 @@ import { useLoaderData } from "react-router";
 
 export default function ProductsPage() {
   const { products } = useLoaderData();
-
+  console.log(products);
   return (
     <div>
       ProductsPage
@@ -11,7 +11,7 @@ export default function ProductsPage() {
       <hr />
       <ul>
         {products.map((product) => (
-          <li>
+          <li key={product.id}>
             {product.id}: {product.title}
           </li>
         ))}
