@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+body {
+    background-color: #f5f5f5;
+}
+
+a.active {
+    font-weight: 700;
+    color:#5a3f28;
+}
