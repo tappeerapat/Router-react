@@ -6,10 +6,10 @@ export default function NavBar() {
     link: "hover:font-medium hover:text-[#826047] active:font-[200]",
   };
 
-  //   const linkStyles = ({ isActive }) =>
-  //     isActive
-  //       ? "text-white border-b-2 border-white"
-  //       : "text-gray-400 hover:text-white";
+  // const linkStyles = ({ isActive }) =>
+  //   isActive
+  //     ? "text-white border-b-2 border-white"
+  //     : "text-gray-400 hover:text-white";
 
   return (
     <nav className="mb-10">
