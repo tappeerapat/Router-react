@@ -15,6 +15,8 @@ const router = createBrowserRouter([
       { path: "products", element: <ProductsPage />, loader: fetchProducts },
     ],
   },
-]);
+],
+
+{basename:"/Router-react"});
 
 export default router;
